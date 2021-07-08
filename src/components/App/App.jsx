@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Route } from 'react-router-dom';
 import Home from './../Home/Home';
 import About from './../About/About';
 import Projects from './../Projects/Projects';
@@ -13,9 +13,10 @@ import GoHome from '../GoHome/GoHome';
 const App = () => {
     return (
         <div>
-            <HashRouter>
+            {/* <HashRouter> */}
+            <BrowserRouter>
                 <div>
-                    <NavBar />
+                    <NavBar/>
                     <Route path='/' exact component={Home} />
                     <Route path='/about' exact component={About} />
                     <Route path='/projects' exact component={Projects} />
@@ -23,7 +24,8 @@ const App = () => {
                     <Route path='/contact' exact component={Contact} />
                     <GoHome />
                 </div>
-            </HashRouter>
+                </BrowserRouter>
+            {/* </HashRouter> */}
         </div>
     );
 };
