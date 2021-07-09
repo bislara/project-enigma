@@ -1,5 +1,5 @@
 import React from 'react';
-import { slide as Menu } from 'react-burger-menu';
+import { bubble as Menu } from 'react-burger-menu';
 import { Link, withRouter } from 'react-router-dom';
 
 import './NavBar.css';
@@ -18,7 +18,7 @@ class NavBar extends React.Component {
             location.pathname === '/contact' ? 'active-item' : '';
 
         return (
-            <Menu>
+            <Menu right pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }>
                 {/* We NEVER want to use <a> inside our react router application */}
                 {/* <a id='home' className='menu-item' href='/'>
                     Home
@@ -38,6 +38,7 @@ class NavBar extends React.Component {
                 <Link to='/contact' className={`menu-item ${contactClass}`}>
                     Contact
                 </Link>
+        
             </Menu>
         );
     }
