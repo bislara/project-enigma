@@ -9,12 +9,12 @@
 
 /* Color to our burger */
 .bm-burger-bars {
-    background: #000000;
+    background: white;
 }
 
 /* Color to our burger icon on hover */
 .bm-burger-bars-hover {
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
 }
 
 /* Size of the cross button */
@@ -37,7 +37,11 @@
 }
 
 .bm-menu {
-    background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+    /* background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%); */
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
     padding: 2.5em 1.5em 0 0;
     height: 100vh;
     overflow: hidden !important;
