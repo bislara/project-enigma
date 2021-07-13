@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import homeAnime from './../../assets/home_anime_3.gif';
+// import homeAnime from './../../assets/home_anime_3.gif';
+import homeAnime from './../../assets/pic3.png';
+import wavingHand from './../../assets/waving_hand.gif';
 import './Home.css';
 
 class Home extends Component {
@@ -22,7 +24,7 @@ class Home extends Component {
             <div className='home-container'>
                 <div className='home-left'>
                     <div className='header-text'>
-                        <h3>Hello World!</h3>
+                        <h3>Hello World! <img src={wavingHand} width="29px"></img></h3>
                         <h1>I'm Biswajeet Sahoo.</h1>
                         <p>Full Stack Developer who's ready to turn Ideas into Reality. </p>
                     </div>

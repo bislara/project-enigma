@@ -4,6 +4,9 @@
     align-items: center;
     width: 60%;
     align-self: center;
+    color: #fff;
+    z-index: 100;
+
 }
 
 .header-container > h1 {
@@ -13,7 +16,8 @@
     line-height: 57px;
     text-align: center;
     letter-spacing: 0.2px;
-    color: #000;
+    color: #fff;
+    z-index: 100;
     margin: 0;
 }
 

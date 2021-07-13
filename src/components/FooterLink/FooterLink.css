@@ -5,6 +5,8 @@
     line-height: 36px;
     text-align: center;
     letter-spacing: -0.015em;
+    color: #fff;
+    z-index: 100;
 }
 
 .footer-link-element {

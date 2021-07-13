@@ -8,9 +8,9 @@ import aboutAnime from './../../assets/about_anime.gif';
 const About = () => {
     return (
         <div className='section-container'>
-            <Header
+            <Header className='header-section'
                 heading='About Me.'
-                details='The Lean Programmer | Public speaker | YouTuber | Blogger | Uplifting the student community in the field of tech and personal growth'
+                details="I am a final year under graduate student in Electronics and Communication Department of NIT Rourkela, who is interested and fascinated about the new era's technology"
             />
 
             <div className='about-main'>

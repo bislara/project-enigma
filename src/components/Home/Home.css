@@ -1,7 +1,7 @@
 .home-container {
-    background: #1FA2FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1FA2FF;  
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  
+    background: linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF); 
         
     /* background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%); */
     display: flex;
@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     overflow-y: auto;
-    padding: 100px 5%;
+    padding: 79.5px 5%;
     min-height: 100vh;
     box-sizing: border-box;
 }
@@ -128,8 +128,8 @@
 }
 
 .home-anime {
-    height: 110%;
-    width: 110%;
+    height: 100%;
+    width: 105%;
     padding-right: 72px;
     /* margin-bottom: -80px; */
 }
