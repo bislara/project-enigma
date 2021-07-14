@@ -29,7 +29,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;}
+    text-align: center;
+    color:white;
+    font-family: Poppins;
+    font-style: normal;
+}
 
 .education-list{
     list-style-type: disclosure-closed;

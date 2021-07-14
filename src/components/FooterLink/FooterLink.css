@@ -1,5 +1,5 @@
 .footer-link {
-    font-family: Montserrat;
+    font-family: Poppins;
     font-weight: bold;
     font-size: 24px;
     line-height: 36px;
@@ -7,6 +7,7 @@
     letter-spacing: -0.015em;
     color: #fff;
     z-index: 100;
+    padding-top: 20px;
 }
 
 .footer-link-element {

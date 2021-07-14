@@ -62,20 +62,19 @@ const About = () => {
                         className='about-anime'
                     />
                 </div>
-
-                <div className="row about-center">
+                
+            </div>
+            <div className="row about-center">
                     <h3 className='about-sub-head'>GitHub Contributions</h3>
                     <br />
 
-                    <img src="https://grass-graph.moshimo.works/images/bislara.png" />
+                    <img style={{maxWidth: '100%',height: 'auto'}} src="https://grass-graph.moshimo.works/images/bislara.png" />
 
                     <p>
                     Summary of contributions made by
                     <a href="https://www.github.com/bislara" target="_blank">@bislara</a>
                     </p>
                 </div>
-                
-            </div>
 
             <FooterLink
                 phrase='Check out my '
