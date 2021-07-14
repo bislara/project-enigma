@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import aboutVector from './../../assets/about_vector.png';
 import './About.css';
 import aboutAnime from './../../assets/about_anime.gif';
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -16,45 +17,42 @@ const About = () => {
             <div className='about-main'>
                 <div className='about-main-left'>
                     {/* Sub section 1 */}
-                    <h3 className='about-sub-head'>Teacher</h3>
+                    <h3 className='about-sub-head'>Education</h3>
                     <p className='about-details'>
-                        Teaching is my passion, till now, I've taught thousands
-                        of students about Programming and Web Development. Check
-                        out{' '}
-                        <a
-                            className='about-link-element'
-                            href='http://theleanprogrammer.com/aam'
-                        >
-                            my free react courses!
-                        </a>
+                        
+                        <ul>
+                            <li className='education-list'>
+                            <b>Bachelor Degree (July 2017 - May 2021)<br/>
+                            @ National institute of Technology, Rourkela </b> <br/>
+                            <p>
+                            On going under graduate degree in Electronics and Communication Engineering with an overall CGPA of 8.72 out of 10. </p>                           
+                            </li>
+                            
+                            <li className='education-list'>
+                            <b>Intermediate Degree (May 2015 - April 2017)<br/>
+                            @ DAV Public School, CDA, Cuttack </b> <br/>
+                            <p>
+                            Completed my intermediate degree in Science stream in CBSE Board with an overall percentage of 89% out of 100%. </p>                           
+                            </li>
+
+                            <li className='education-list'>
+                            <b>High School<br/>
+                            @ DAV Public School, CDA, Cuttack </b> <br/>
+                            <p>
+                            Completed my 10th class in CBSE Board with an overall CGPA of 10 out of 10. </p>                           
+                            </li>
+
+                        </ul>
+                        <div className='head-btns'>
+                        <Link  to={{  pathname: 'https://drive.google.com/file/d/11eRbC0HSrf12cRvq3mrmFK2R73t3buO3/view?usp=sharing' }} target="_blank" className='btn btn-white'>
+                            <p className='btn-text'>Download CV</p>
+                        </Link>
+                        </div>    
                     </p>
 
                     {/* Sub section 2 */}
-                    <h3 className='about-sub-head'>Blogger</h3>
-                    <p className='about-details'>
-                        I've been writing blogs from around 3 years now, and
-                        became top-blogger on medium twice. Check out{' '}
-                        <a
-                            className='about-link-element'
-                            href='https://madhavbahl.medium.com/'
-                        >
-                            my medium blogs today!
-                        </a>
-                    </p>
 
-                    {/* Sub section 3 */}
-                    <h3 className='about-sub-head'>Public Speaker</h3>
-                    <p className='about-details'>
-                        Being a passionate public speaker, I've given talks at
-                        more than 75 events till now! Want me to speak in your
-                        event?{' '}
-                        <a
-                            className='about-link-element'
-                            href='mailto:info@theleanprogrammer.com'
-                        >
-                            Email me the details!
-                        </a>
-                    </p>
+                    
                 </div>
 
                 <div className='about-main-right'>
@@ -64,12 +62,25 @@ const About = () => {
                         className='about-anime'
                     />
                 </div>
+
+                <div className="row about-center">
+                    <h3 className='about-sub-head'>GitHub Contributions</h3>
+                    <br />
+
+                    <img src="https://grass-graph.moshimo.works/images/bislara.png" />
+
+                    <p>
+                    Summary of contributions made by
+                    <a href="https://www.github.com/bislara" target="_blank">@bislara</a>
+                    </p>
+                </div>
+                
             </div>
 
             <FooterLink
                 phrase='Check out my '
-                link='projects!'
-                toAdress='/projects'
+                link='skills!'
+                toAdress='/skills'
             />
             {/* Vector Frame! */}
             <div className='vector-frame'>
