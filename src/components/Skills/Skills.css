@@ -2,31 +2,60 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /* justify-content: center; */
+    margin: 10px 10%;
+}
+
+.skill-index{
+    z-index: 100;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: flex-start;
+    flex-direction: row;
+    color:white;
+    padding-top:20px;
+}
+ 
+.skills-left,
+.skills-right {
+    width: 50%;
+}
+
+.skills-right {
+    display: flex;
     justify-content: center;
-    margin: 80px 20%;
+    flex-direction: column;
+    color:white;
+}
+
+.skills-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .skill {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 100px;
     align-items: center;
     margin-bottom: 20px;
 }
 
 .skill > img {
-    width: 108px;
+    width: 80px;
     margin-bottom: 15px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .skill > p {
-    font-family: Montserrat;
-    font-size: 24px;
+    font-family: Poppins;
+    font-size: 18px;
     line-height: 36px;
     text-align: center;
     letter-spacing: -0.015em;
-    color: #000;
+    color: #fff;
     margin: 0;
 }
 
@@ -47,11 +76,82 @@
 
 /* Small screen sizes */
 @media only screen and (max-width: 640px) {
+    .skill-index{
+        grid-template-columns: repeat(3, 1fr);
+    }
     .skills-vector-frame {
         width: 90%;
     }
 
     .skill-card-container {
-        margin: 80px 10%;
+        margin: 20px 10%;
     }
 }
+
+@media only screen and (max-width: 640px) {
+    
+    .skills-left,
+    .skills-right {
+        width: 100%;
+    }
+}
+
+.wrapper {
+    max-width: 100%;
+  }
+  
+  .progress-bar {
+    height: 30px;
+    width: 100%;
+    background-color: #BFADA3;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 0 10px inset rgba(0,0,0,0.2);
+    position: relative;
+  }
+  
+  * + .progress-bar {
+    margin-bottom: 1rem;
+  }
+  
+  .bar {
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    
+    /*Lollipop background gradient*/
+    background-image: linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, .2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, .2) 50%,
+      rgba(255, 255, 255, .2) 75%,
+      transparent 75%,
+      transparent
+    );
+   
+    background-size: 30px 30px;
+    animation: move 2s linear infinite;
+    box-shadow: 2px 0 10px inset rgba(0,0,0,0.2);
+    transition: width 2s ease-out;
+  }
+  
+  /*Lollipop background gradient animation*/
+  @keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 30px 30px;
+    }
+  }
+  
+  .perc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-weight: bold;
+  }

@@ -1,3 +1,7 @@
+import php from './php.png';
+import mysql from './mysql.png';
+import python from './python.png';
+
 export const skillList = [
     {
         skillName: 'HTML',
@@ -16,24 +20,24 @@ export const skillList = [
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
     },
     {
-        skillName: 'Redux',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
+        skillName: 'Python',
+        skillUrl: python,
     },
     {
         skillName: 'NodeJS',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
     },
     {
-        skillName: 'TypeScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/ts.png',
+        skillName: 'PHP',
+        skillUrl: php,
     },
     {
         skillName: 'Java',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
     },
     {
-        skillName: 'C#',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
+        skillName: 'MySQL',
+        skillUrl: mysql,
     },
     {
         skillName: 'MongoDB',
