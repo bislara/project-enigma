@@ -5,11 +5,12 @@
     padding: 44px;
     align-self: center;
     justify-content: center;
+    z-index: 10;
 }
 
 .project-card {
-    width: 500px;
-    min-height: 550px;
+    width: 377px;
+    /* min-height: 550px; */
     background: #fff;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;
@@ -63,7 +64,27 @@
     color: #7d7987;
 }
 
-@media only screen and (max-width: 640px) {
+.skill-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skillBox{
+    border: 1px solid white ;
+    background-color: #4089ed;
+    width: fit-content;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline;
+    color:white;
+    margin-right: 8px;
+}
+
+
+@media only screen and (max-width: 540px) {
     .project-cards-container {
         padding: 20px;
     }

@@ -4,13 +4,13 @@ import './Projects.css';
 const ProjectCard = ({
     projectName,
     projectDescription,
-    imageUrl,
     videoUrl,
     projectUrl,
+    skilsList
 }) => {
     return (
         <div className='project-card'>
-            <div className='image-container'>
+            {/* <div className='image-container'>
                 <a href={projectUrl} className='project-external-link'>
                     <img
                         src={imageUrl}
@@ -18,14 +18,21 @@ const ProjectCard = ({
                         className='project-image'
                     />
                 </a>
-            </div>
+            </div> */}
 
             <div className='project-details-container'>
                 <h2 className='project-heading'>{projectName}</h2>
                 <p className='project-details'>{projectDescription}</p>
-                <a href={videoUrl} className='project-yt-link'>
+                {/* <a href={videoUrl} className='project-yt-link'>
                     Watch More!
-                </a>
+                </a> */}
+                <div className="skill-container">
+                {skilsList.map(function(skill){
+                return <label className="skillBox">
+                         {skill}
+                       </label>;
+                })}
+                </div>
             </div>
         </div>
     );

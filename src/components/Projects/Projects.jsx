@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import FooterLink from '../FooterLink/FooterLink';
 import Header from '../Header/Header';
 import { projectsData } from './../../assets/projectsData';
@@ -21,6 +22,7 @@ const Projects = () => {
                         imageUrl,
                         videoUrl,
                         projectUrl,
+                        skilsList,
                     }) => {
                         return (
                             <ProjectCard
@@ -29,11 +31,19 @@ const Projects = () => {
                                 projectUrl={projectUrl}
                                 imageUrl={imageUrl}
                                 videoUrl={videoUrl}
+                                skilsList = {skilsList}
                             />
                         );
                     }
                 )}
             </div>
+
+            <div className='head-btns'>
+                <Link to={{  pathname: 'https://github.com/bislara' }} target="_blank" className='btn btn-white'>
+                    <p className='btn-text'>More Projects</p>
+                </Link>
+            </div>
+            <br></br>
 
             <FooterLink
                 phrase='Check out '

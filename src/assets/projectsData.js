@@ -1,46 +1,61 @@
 export const projectsData = [
     {
-        projectName: 'Name It!',
+        projectName: 'Ecommerce Website',
         projectDescription:
-            'Do you find it difficult to name your projects or ventures? Fear not! Check out this cool name suggestion application which will help you find the best name for your next project, venture, or startup. Keep building!',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj1.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NqJvvQ7-l9bUHHS6bMCkgo0',
-        projectUrl: 'http://theleanprogrammer.com/name-it/',
+            'Ecommerce Website having features like registration and login of the user, adding products to cart, remove items from the cart, checkout system with billing and shipping address, total and subtotal price calculation, auto search process, using Ajax to handle few processes, contact form and its verification, etc.',
+        projectUrl: 'https://github.com/bislara/Ecommerce_website',
+        skilsList: ['DJANGO','SQLite'],
     },
     {
-        projectName: 'FlashType',
+        projectName: 'Newsletter Website',
         projectDescription:
-            'Having a good typing speed will always help you as a developer! Here, I present you the typing speed test application, where you can check your typing speed (in wpm) and share the results with your friends too.',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj2.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NppHNrzUSjMQbnuHS9jlAcY',
+            'Newsletter Website where admins can post different topics,forums,ask a question,poll system,admin panel,search feature.User can also comment(which needs to be approved by admin).Made RESTful APIs for the different modules of website.',
         projectUrl: 'http://theleanprogrammer.com/flashtype/',
+        skilsList: ['CodeIgniter','MySQL'],
+
     },
     {
-        projectName: 'Flexbox Cheatsheet',
+        projectName: 'PDF Viewer',
         projectDescription:
-            'A frontend web developer must know the concepts of CSS Flexbox. So here is a CSS Flexbox cheatsheet, built using CSS Flexbox. Learn the concepts of flexbox by building a cheatsheet which is built using flexbox. Super cool!',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj3.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NrkKnaIrYeOolru4EakosHY',
+            'Designed the GUI using PyQt5 and its backend for the PDF viewer.In addition to normal PDF Viewer, this has additional features to enter a word/words for finding the meaning of that in offline mode and also save the words. We can also save digital notes in it.',
         projectUrl: 'http://theleanprogrammer.com/flex/',
+        skilsList: ['PyQt5','Python','Pdf.js'],
+
     },
     {
-        projectName: 'PokeDex',
+        projectName: 'Emotion based Music player',
         projectDescription:
-            "Pokemon was a huge part of our childhood, wasn't it? Talking about pokemon brings back so many memories, but do you remember the details of each pokemon? Probably No! So here I bring you a pokedex to check all pokemons :)",
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj4.PNG',
-        videoUrl:
-            'https://www.youtube.com/playlist?list=PLGyA74h_S9NrjM7mUiSmpKfUntwEcgMB3',
+            "Website that uses a emotion classification algorithm and based on the emotion captured using the front camera, the system will play music on the website which can provide soothing experience to the user",
         projectUrl: 'http://theleanprogrammer.com/pokedex/',
+        skilsList: ['Tensorflow.js','MobileNet'],
+
     },
     {
-        projectName: 'Portfolio Website',
+        projectName: 'Online cryptic-hunt Website',
         projectDescription:
-            'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
-        imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj5.PNG',
-        videoUrl: 'http://theleanprogrammer.com/aam',
+            'Frontend and Backend Developer of the online cryptic-hunt Epreuve. The interface has features for giving answers of different levels and getting the rank according to an algorithm.',
         projectUrl: 'http://madhavbahl.tech/portfolio/',
+        skilsList: ['PHP','MySQL'],
+    },
+    {
+        projectName: 'Object Detection GUI',
+        projectDescription:
+            'Object Detection GUI made using PyQt5 to detect specific objects ie. Person, Cat, Dog, Chair, Bottle,etc with a particular detection threshold set by the user.The main backend used over here is the Tensorflow Object Detection API.The user can select the model to be used and also set the filter for objects.',
+        projectUrl: 'http://madhavbahl.tech/portfolio/',
+        skilsList: ['Python','Web Crawling'],
+    },
+    {
+        projectName: 'Weather Application',
+        projectDescription:
+            'Pip installable software made using Python Web Crawling method that gets the weather details of any location of world. It takes 3 inputs-Place,Date,Type of forecast (daily,5 day,weekly,biweekly).',
+        projectUrl: 'http://madhavbahl.tech/portfolio/',
+        skilsList: ['Python','Web Crawling'],
+    },
+    {
+        projectName: 'Lane Follower Bot',
+        projectDescription:
+            'Autonomous bot capable of following lane using onboard camera. The lane is made of black walls and white coloured track. The bot can detect leds on the walls and also detect the frequency of the led of the path.',
+        projectUrl: 'http://madhavbahl.tech/portfolio/',
+        skilsList: ['Python','Web Crawling'],
     },
 ];

@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, useEffect}  from 'react';
 import FooterLink from '../FooterLink/FooterLink';
 import Header from '../Header/Header';
 import { skillList } from './../../assets/skillsData';
@@ -26,6 +26,9 @@ const SkillBars = [
 
 
 const Skills = () => {
+  useEffect(() => {
+    loading();
+  });
     return (
         <div className='section-container'>
             <Header
