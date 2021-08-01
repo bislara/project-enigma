@@ -30,6 +30,7 @@
 }
 
 .project-external-link {
+    text-decoration: none;
     border-radius: inherit;
 }
 
