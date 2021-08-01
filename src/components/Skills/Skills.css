@@ -12,6 +12,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-content: flex-start;
+    place-items: center;
     flex-direction: row;
     color:white;
     padding-top:20px;

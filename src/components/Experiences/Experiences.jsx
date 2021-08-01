@@ -65,8 +65,8 @@ const Projects = () => {
             </div>
             
             <FooterLink
-                phrase='Check out '
-                link='my projects!'
+                phrase='Check out my '
+                link='projects!'
                 toAdress='/projects'
             />
         </div>

@@ -78,19 +78,19 @@ const Contact = () => {
 
                 <div className="details">
                     <img src={address} style={{width: "80px",marginLeft: "auto",marginRight: "auto"}}/>
-                    <h5>Where to Find Me</h5>
+                    <h4>Where to Find Me</h4>
                     <p>Flat no- 4/A, Chiranjiv Complex, Mangalabag, Cuttack, Odisha, India, Pin Code-753001</p>
                 </div>
 
                 <div className="details">
                     <img src={email} style={{width: "80px",marginLeft: "auto",marginRight: "auto"}}/>
-                    <h5>Email me at</h5>
+                    <h4>Email me at</h4>
                     <p>biswajeetsahoo54@gmail.com</p>
                 </div>
                 
                 <div className="details">
                     <img src={phone} style={{width: "80px",marginLeft: "auto",marginRight: "auto"}}/>
-                    <h5>Call me at</h5>
+                    <h4>Call me at</h4>
                     <p>Phone: (+91) 97787 56623</p>
                 </div>
                 
