@@ -16,6 +16,8 @@ class NavBar extends React.Component {
             location.pathname === '/skills' ? 'active-item' : '';
         const contactClass =
             location.pathname === '/contact' ? 'active-item' : '';
+        const experienceClass = 
+            location.pathname === '/experiences' ? 'active-item' : '';
 
         return (
             <Menu right pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }>
@@ -28,6 +30,9 @@ class NavBar extends React.Component {
                 </Link>
                 <Link to='/about' className={`menu-item ${aboutClass}`}>
                     About
+                </Link>
+                <Link to='/experiences' className={`menu-item ${experienceClass}`}>
+                    Experiences
                 </Link>
                 <Link to='/projects' className={`menu-item ${projectsClass}`}>
                     Projects
