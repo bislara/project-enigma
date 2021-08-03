@@ -42,7 +42,7 @@ export const projectsData = [
         projectDescription:
             'Object Detection GUI made using PyQt5 to detect specific objects ie. Person, Cat, Dog, Chair, Bottle,etc with a particular detection threshold set by the user.The main backend used over here is the Tensorflow Object Detection API.The user can select the model to be used and also set the filter for objects.',
         projectUrl: 'https://github.com/bislara/Object-detection-GUI',
-        skilsList: ['PyQt5','Tensorflow-API', 'Coco-Dataset'],
+        skilsList: ['PyQt5','Tensorflow-API'],
     },
     {
         projectName: 'Weather Application',
