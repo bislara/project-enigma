@@ -5,6 +5,7 @@ import particlesConfig from '../particles-config.js';
 
 import Home from './../Home/Home';
 import About from './../About/About';
+import Achievements from './../Achievements/Achievements'
 import Experiences from './../Experiences/Experiences';
 import Projects from './../Projects/Projects';
 import Skills from './../Skills/Skills';
@@ -48,6 +49,7 @@ const App = () => {
 
                         <Route path='/' exact component={Home} />
                         <Route path='/about' exact component={About} />
+                        <Route path="/achievements" exact component={Achievements} />
                         <Route path='/experiences' exact component={Experiences} />
                         <Route path='/projects' exact component={Projects} />
                         <Route path='/skills' exact component={Skills} />
