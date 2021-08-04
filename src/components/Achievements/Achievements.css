@@ -12,7 +12,8 @@
   padding: 1em;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   z-index: 2;
-  background-color: rgba(243, 244, 246);
+  color: white;
+  background-color: #34d399;
 }
 
 /* This container is needed to position the front and back side */
@@ -30,6 +31,10 @@
   transform: rotateY(180deg);
 }
 
+.achievement-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 20px 30px -5px;
+}
+
 /* Position the front and back side */
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -41,11 +46,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 20px;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
 }
