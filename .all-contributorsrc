@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "bislara",
+      "name": "Biswajeet Sahoo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35392585?v=4",
+      "profile": "https://biswajeet-tech.netlify.app/",
+      "contributions": [
+        "code",
+        "doc",
+        "maintenance",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "project-enigma",
+  "projectOwner": "bislara",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
