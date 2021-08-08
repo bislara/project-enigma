@@ -1,6 +1,9 @@
 .achievement-cards-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1500px;
 }
  
 .achievement-card {
@@ -13,7 +16,7 @@
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   z-index: 2;
   color: white;
-  background-color: #34d399;
+  background-color: #3393fa;
 }
 
 /* This container is needed to position the front and back side */
@@ -53,4 +56,16 @@
 .flip-card-back {
   color: white;
   transform: rotateY(180deg);
+}
+
+
+@media only screen and (max-width: 540px) {
+  .achievements-cards-container {
+      padding: 20px;
+  }
+
+  .achievement-card {
+      width: 290px;
+      height: 200px;
+  }
 }
