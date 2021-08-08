@@ -2,7 +2,7 @@
 Personal Portfolio Website
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/21838695-db7b-4022-b431-5bafcb33d6b6/deploy-status)](https://app.netlify.com/sites/biswajeet-tech/deploys)
@@ -110,6 +110,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://biswajeet-tech.netlify.app/"><img src="https://avatars.githubusercontent.com/u/35392585?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Biswajeet Sahoo</b></sub></a><br /><a href="https://github.com/bislara/project-enigma/commits?author=bislara" title="Code">💻</a> <a href="https://github.com/bislara/project-enigma/commits?author=bislara" title="Documentation">📖</a> <a href="#maintenance-bislara" title="Maintenance">🚧</a> <a href="https://github.com/bislara/project-enigma/pulls?q=is%3Apr+reviewed-by%3Abislara" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/danmolloy"><img src="https://avatars.githubusercontent.com/u/64697812?v=4?s=100" width="100px;" alt=""/><br /><sub><b>danmolloy</b></sub></a><br /><a href="https://github.com/bislara/project-enigma/commits?author=danmolloy" title="Code">💻</a></td>
   </tr>
 </table>
 
