@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "danmolloy",
+      "name": "danmolloy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64697812?v=4",
+      "profile": "https://github.com/danmolloy",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "project-enigma",
+  "projectOwner": "bislara",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
