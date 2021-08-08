@@ -19,6 +19,13 @@ const achievementsList = [
     competitionName: "Tokyo 2020",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae justo dignissim, tincidunt lacus vitae, auctor sem. Sed hendrerit vulputate malesuada.",
     date: "July - Aug 2019"
+  },
+  {
+    title: "Olympics Gold Medal",
+    position: "Freestyle 100m Mens",
+    competitionName: "Tokyo 2020",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae justo dignissim, tincidunt lacus vitae, auctor sem. Sed hendrerit vulputate malesuada. ",
+    date: "July - Aug 2019"
   }
 ]
 
