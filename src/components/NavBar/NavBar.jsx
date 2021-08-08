@@ -32,11 +32,11 @@ class NavBar extends React.Component {
                 <Link to='/about' className={`menu-item ${aboutClass}`}>
                     About
                 </Link>
-                <Link to='/achievements' className={`menu-item ${achievementsClass}`}>
-                    Achievements
-                </Link>
                 <Link to='/experiences' className={`menu-item ${experienceClass}`}>
                     Experiences
+                </Link>
+                <Link to='/achievements' className={`menu-item ${achievementsClass}`}>
+                    Achievements
                 </Link>
                 <Link to='/projects' className={`menu-item ${projectsClass}`}>
                     Projects

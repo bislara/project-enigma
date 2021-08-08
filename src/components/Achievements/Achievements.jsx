@@ -1,4 +1,5 @@
 import Header from '../Header/Header';
+import FooterLink from '../FooterLink/FooterLink';
 import "./Achievements.css";
 import { achievementsList } from '../../assets/achievementsList';
 import AchievementCard from './AchievementCard'
@@ -20,6 +21,11 @@ const Achievements = () => {
             date={i.date}
           />)}
       </div>
+      <FooterLink
+                phrase='Check out my '
+                link='projects!'
+                toAdress='/projects'
+            />
       </div>
     </div>
   )
