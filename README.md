@@ -17,15 +17,16 @@ git clone https://github.com/bislara/project-enigma.git
 cd project-enigma
 ```
 
-3. install dependencies using npm or yarn   
+3. install dependencies using npm
 ```
-yarn OR npm i
+npm i
 ```
-3. install dependencies using npm or yarn   
+3. install dependencies using npm 
 ```
-yarn OR npm start
+npm start
 ```
 
+Note:  Please use npm and "not" yarn. The deployment configuration is set using npm.
 
 ## Available Scripts
 
