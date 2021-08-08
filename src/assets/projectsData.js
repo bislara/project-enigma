@@ -42,7 +42,7 @@ export const projectsData = [
         projectDescription:
             'Object Detection GUI made using PyQt5 to detect specific objects ie. Person, Cat, Dog, Chair, Bottle,etc with a particular detection threshold set by the user.The main backend used over here is the Tensorflow Object Detection API.The user can select the model to be used and also set the filter for objects.',
         projectUrl: 'https://github.com/bislara/Object-detection-GUI',
-        skilsList: ['Python','Web Crawling'],
+        skilsList: ['PyQt5','Tensorflow-API'],
     },
     {
         projectName: 'Weather Application',
@@ -56,6 +56,6 @@ export const projectsData = [
         projectDescription:
             'Autonomous bot capable of following lane using onboard camera. The lane is made of black walls and white coloured track. The bot can detect leds on the walls and also detect the frequency of the led of the path.',
         projectUrl: 'https://github.com/bislara/CRUSADE-IIT_KGP',
-        skilsList: ['Python','Web Crawling'],
+        skilsList: ['Python','Image Processing'],
     },
 ];
