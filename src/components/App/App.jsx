@@ -35,33 +35,62 @@ function Particles({ children }) {
     );
   }
 
+const Loading = () => {
+    return(
+        <div className="section-container">    
+            <div className="wrapper">
+                <div className="circle"></div>
+                <div className="circle"></div>
+                <div className="circle"></div>
+                <div className="shadow"></div>
+                <div className="shadow"></div>
+                <div className="shadow"></div>
+            </div>
+        </div>
+    )
+}
   
 const App = () => {
-    return (
-        <div>
-            
-            {/* <HashRouter> */}
-            <BrowserRouter>
-                <div  id="outer-container">
-                    <NavBar/>
-                    <main id="page-wrap" style={{zIndex:10}}>
-                    <Particles>
 
-                        <Route path='/' exact component={Home} />
-                        <Route path='/about' exact component={About} />
-                        <Route path="/achievements" exact component={Achievements} />
-                        <Route path='/experiences' exact component={Experiences} />
-                        <Route path='/projects' exact component={Projects} />
-                        <Route path='/skills' exact component={Skills} />
-                        <Route path='/contact' exact component={Contact} />
-                        <GoHome />
-                        </Particles>
-                    </main>
-                </div>
+    const [isLoading, setLoading] = React.useState(true);
+
+
+    function fakeRequest() {
+        return new Promise(resolve => setTimeout(() => resolve(), 1500));
+    }
+
+    React.useEffect(() => {
+      
+        fakeRequest().then(() => {setLoading(!isLoading);});
+        
+        }, []);
+    
+    if (isLoading) 
+        return (<Loading />);
+    else
+        return (
+            <div>                
+                {/* <HashRouter> */}
+                <BrowserRouter>
+                    <div id="outer-container">
+                        <NavBar/>
+                        <main id="page-wrap" style={{zIndex:10}}>
+                            <Particles>
+                                <Route path='/' exact component={Home} />
+                                <Route path='/about' exact component={About} />
+                                <Route path="/achievements" exact component={Achievements} />
+                                <Route path='/experiences' exact component={Experiences} />
+                                <Route path='/projects' exact component={Projects} />
+                                <Route path='/skills' exact component={Skills} />
+                                <Route path='/contact' exact component={Contact} />
+                                <GoHome />
+                            </Particles>
+                        </main>
+                    </div>
                 </BrowserRouter>
-            {/* </HashRouter> */}
-        </div>
-    );
+                {/* </HashRouter> */}
+            </div>
+        );
 };
 
 export default App;
