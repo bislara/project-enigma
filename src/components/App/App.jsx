@@ -56,7 +56,7 @@ const App = () => {
 
 
     function fakeRequest() {
-        return new Promise(resolve => setTimeout(() => resolve(), 1500));
+        return new Promise(resolve => setTimeout(() => resolve(), 3000));
     }
 
     React.useEffect(() => {
