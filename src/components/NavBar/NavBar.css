@@ -34,7 +34,6 @@
   height: 100vh;
   overflow-x: hidden;
   box-shadow: 0px 4px 31px rgba(202, 59, 59, 0.15);
-  background-color: red;
 }
 
 .bm-menu {
@@ -75,7 +74,18 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  padding: 10px;
+  padding: 1em;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-item:hover {
+  font-weight: 800;
+  color: cyan;
+}
+
+.menu-item:active {
+  color: #fff;
 }
 
 .active-item {
