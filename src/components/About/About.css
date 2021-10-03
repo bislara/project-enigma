@@ -6,14 +6,18 @@
     color: #fff;
     z-index: 100;
 }
-.about-main-left,
+.about-main-left {
+    width: 55%;
+}
+
 .about-main-right {
-    width: 50%;
+    width: 45%;
 }
 
 .about-main-right {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .about-main-left {
@@ -106,6 +110,7 @@
     width: 520px;
     max-width: 100%;
     max-height: 100%;
+    object-fit: contain;
 }
 
 .vector-frame {
@@ -144,4 +149,95 @@
     .about-main-right {
         width: 100%;
     }
+}
+
+
+/*---------------------- Timeline css ------------------------------------*/
+
+ .container {
+   padding: 0;
+   margin: 0;
+}
+ .container ul {
+   position: relative;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+ .container ul:before {
+   content: "";
+   position: absolute;
+   top: 25px;
+   left: -20px;
+   height: 100%;
+   border: 1px solid #000;
+}
+ .box {
+   margin: 0 0 50px 0;
+   padding: 10px 20px;
+   width: 100%;
+   position: relative;
+   border: 0.2px solid #fff;
+   letter-spacing: 2px;
+   border-radius: 5px;
+   box-sizing: border-box;
+   box-shadow: 1px 1px 3px rgba(100, 100, 100, 0.3);
+}
+ .box > span {
+   content: "";
+   position: absolute;
+   top: 25px;
+   left: -20px;
+   height: 100%;
+}
+ .box > span:before{
+   content: "";
+   position: absolute;
+   left: -7px;
+   width: 10px;
+   height: 10px;
+   border: 2px solid #fff;
+   background: #01579b;
+   border-radius: 100%;
+}
+ .box > span:before {
+   top: -12px;
+}
+ .box .title {
+   font-size: 1rem;
+   text-transform: uppercase;
+   margin-top: 10px;
+}
+ .box .sub-title {
+   margin: 10px 0;
+   font-size: 0.8rem;
+   color: #565252;
+   font-weight: 900;
+}
+ .box .info {
+   margin: 15px 0;
+   font-size: 1rem;
+}
+ .box .time span {
+   position: absolute;
+   font-size: 0.5rem;
+   color: #aaa;
+}
+ .box .time span:first-child {
+   top: -10px;
+   left: -70px;
+}
+ .box .time span:last-child {
+   top: 100%;
+   left: -70px;
+}
+
+.time-span{    
+    background-color: #000;
+    color: #fff;
+    padding: 7px;
+    width: max-content;
+    font-size: 10px;
+    margin-bottom: 25px;
+    font-weight: bold;
 }
